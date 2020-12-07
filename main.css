@@ -1,0 +1,126 @@
+#navbar{
+    position: fixed;
+font-size: 40px;
+background-color:black;
+width: 100%;
+text-align: right;
+top: 0px;
+margin-left: -9px;
+}
+img{
+    padding: 10px;
+    bottom: 0px;
+}
+#navbar a{
+    
+    
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+    padding: 5px;
+    
+}
+
+
+
+#navbar a:hover{
+    font-size: 42px;
+    color: gray;
+    transition: color 0.5s;
+}
+.cont{
+        margin-top:96px; 
+        margin-left: -8px;
+        margin-right: -7px;
+   
+}
+#container{
+    display: grid;
+    grid-template-rows: 560px 560px 560px;
+    
+}
+
+.container1{
+justify-self: center;
+align-self: center;
+height: 100%;
+overflow: hidden;
+}
+ 
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 40px;
+}
+
+#welcome-section {
+text-align: center;
+}
+
+.container2{
+    height: 100%;
+    overflow: hidden;
+}
+
+.container3{
+    margin-top: 100px;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+#projects{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 10px;
+margin-top: -19px;
+overflow: hidden;
+}
+
+.project-tile{
+    margin-top: 40px;
+    text-align: center;
+
+
+}
+.project-tile1{
+    margin-top: 40px;
+
+    text-align: center;
+
+}
+
+.project-tile2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+iframe{
+    height:300px;
+    border:5px solid black;
+    box-shadow: 0px 5px 5px 5px gray;
+}
+
+iframe:hover{
+    border:7px solid black;
+    box-shadow: 0px 6px 6px 6px rgb(83, 79, 79);
+}
+
+#contact{
+    text-align: center;
+}
+
+.profile-link{
+    text-align: center;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 500px) {
+    iframe {
+        width: 140px;
+    }
+  }
